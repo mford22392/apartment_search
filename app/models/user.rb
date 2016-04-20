@@ -8,4 +8,6 @@ class User < ActiveRecord::Base
     :length => { :minimum => 8 }
 
   validates_confirmation_of :password
+
+  
 end
